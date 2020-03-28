@@ -1,0 +1,27 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a7d39121_002D0db9_002D4a0f_002Dbebe_002D4f7af0ddef26/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="Tests" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;Or&gt;
+    &lt;Or&gt;
+      &lt;Or&gt;
+        &lt;Or&gt;
+          &lt;TestAncestor&gt;
+            &lt;TestId&gt;::E9111D9A-41AB-432C-93C5-EF7853B8034A::.NETCoreApp,Version=v3.1::ApiUnitTest.Tests&lt;/TestId&gt;
+          &lt;/TestAncestor&gt;
+          &lt;TestAncestor&gt;
+            &lt;TestId&gt;::E9111D9A-41AB-432C-93C5-EF7853B8034A::.NETCoreApp,Version=v3.1::ApiUnitTest.WebServiceTest.TestSearchAsync&lt;/TestId&gt;
+          &lt;/TestAncestor&gt;
+        &lt;/Or&gt;
+        &lt;TestAncestor&gt;
+          &lt;TestId&gt;::E9111D9A-41AB-432C-93C5-EF7853B8034A::.NETCoreApp,Version=v3.1::ApiUnitTest.WebServiceTest.TestDetailAsync&lt;/TestId&gt;
+        &lt;/TestAncestor&gt;
+      &lt;/Or&gt;
+      &lt;TestAncestor&gt;
+        &lt;TestId&gt;::E9111D9A-41AB-432C-93C5-EF7853B8034A::.NETCoreApp,Version=v3.1::ApiUnitTest.WebServiceTest&lt;/TestId&gt;
+      &lt;/TestAncestor&gt;
+    &lt;/Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;::E9111D9A-41AB-432C-93C5-EF7853B8034A::.NETCoreApp,Version=v3.1::ApiUnitTest.BoozeControllerTests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

@@ -8,5 +8,13 @@
       <Folder Include="Models\DTO" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="TechTestTests\packages.config" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    </ItemGroup>
+
 
 </Project>
