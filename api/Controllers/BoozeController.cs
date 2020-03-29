@@ -41,11 +41,8 @@ namespace api.Controllers
             cocktailList.Cocktails = new List<Cocktail>();
             cocktailList.meta = new ListMeta();
 
-            foreach (var drink in drinks)
-            {
-                var detail = await _webService.GetDetailsAsync(drink.Id);
-                cocktailList.Cocktails.Add(detail);
-            }
+            var tasks = drinks.Select(x => _webService.GetDetailsAsync(x.Id));
+            cocktailList.Cocktails = (await Task.WhenAll(tasks)).ToList();
 
             cocktailList.meta.count = cocktailList.Cocktails.Count;
             cocktailList.meta.firstId = cocktailList.Cocktails.Min(x => x.Id);
